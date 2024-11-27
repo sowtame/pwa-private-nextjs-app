@@ -25,6 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="referrer" content="origin" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no" />
       <body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body>
     </html>
   )
