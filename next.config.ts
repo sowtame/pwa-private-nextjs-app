@@ -25,6 +25,10 @@ const nextConfig: NextConfig = {
             key: 'Content-Security-Policy',
             value: cspHeader.replace(/\n/g, ''),
           },
+          {
+            key: 'Referrer-Policy',
+            value: 'origin',
+          },
         ],
       },
     ]
