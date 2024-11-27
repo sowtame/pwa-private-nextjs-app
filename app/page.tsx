@@ -12,7 +12,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-        <a href="https://private.stepantest.ru/">private.stepantest</a>
+        <a href="https://stepantest.ru/">stepantest</a>
 
         <div className={styles.ctas}>
           <a
